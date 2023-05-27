@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Filters</h1>
+        <h2>{{a|lower}}</h2>
+        <h2>{{a|upper}}</h2>
+        <h2>{{a|title}}</h2>
+        <h2>{{a|capfirst}}</h2>
+        <h2>{{a|length}}</h2>
+        <h2>{{a|truncatewords:'2'}}</h2>
+      <h2>{{a|truncatechars:'5'}}</h2>  <!--  functionality like slice [first value, endvalue -1 concept] -->
+        <h2>{{a|slice:'5'}}</h2>
+        <h2>I have {{c}} cat{{c|pluralize}}</h2>
+        <h2>I have {{c}} mango{{c|pluralize:'es'}}</h2>
+        <h2>This {{c}} Marker{{c|pluralize}} {{c|pluralize:'is,are'}} mine</h2>
+        <h2>{{do|date:'Y,d'}}</h2> 
+    </center>
+</body>
+</html>
